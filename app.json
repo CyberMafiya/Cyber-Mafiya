@@ -1,14 +1,14 @@
 {
-    "name": "Amazone Alexa V8",
-    "description": "Alexa is a chat bot for WhatsApp. Makes it easy and Working perfectly",
-    "logo": "https://telegra.ph/file/2046371f4b8e65dd4d52e.jpg",
-    "keywords": ["whatsapp", "userbot", "bot", "api", "ai", "amazone alexa"],
+    "name": "Cyber Mafiya",
+    "description": "Cyber Mafiya is a chat bot for WhatsApp. Makes it easy and Working perfectly",
+    "logo": "https://telegra.ph/file/4a7c84b90c29b036e5051.png",
+    "keywords": ["whatsapp", "userbot", "bot", "api", "ai", "Cyber Mafiya"],
     "repository": "https://chat.whatsapp.com/B5i5mfIerpC6K8jf6GkM7I",
     "website":   "https://chat.whatsapp.com/B5i5mfIerpC6K8jf6GkM7I",
     "success_url": "https://chat.whatsapp.com/B5i5mfIerpC6K8jf6GkM7I",
     "stack": "container",
     "env": {
-        "NEUTRO_SESSION": {
+        "𝕮𝖞𝖇𝖊𝖗 𝖒𝖆𝖋𝖎𝖞𝖆_SESSION": {
             "description": "Paste your QR session.",
             "required": true
         },
@@ -29,7 +29,7 @@
         "BOT_NAME": {
             "description": "give a name you disire to give your bot (for auto reply white to identify)",
             "required": false,
-            "value": "👩‍🦰©Amazone Alexa"
+            "value": "𝕮𝖞𝖇𝖊𝖗 𝖒𝖆𝖋𝖎𝖞𝖆"
         },
         "FULL_ALEXA": {
             "description": "Activate alexa chat bot",
