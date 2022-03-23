@@ -5,14 +5,14 @@ var DOWNLOADCMD = Main.DOWNLOADCMD;var LOGOCMD = Main.LOGOCMD;var PROFILECMD = M
 
 
 // example your layout 👇👇
-// let yourlayout  = require('./Menus/yourfilename')
+// let yourlayout  = require('./Menus/removeall')
 
 // exsample for add your own layout
 /*
 
-if(Details.CMD_LAYOUT == 'yourlayoutname') {
+if(Details.CMD_LAYOUT == 'removeall') {
 
- DOWNLOADCMD = yourlayout.DOWNLOADCMD
+ DOWNLOADCMD = removeall.DOWNLOADCMD
  LOGOCMD = yourlayout.LOGOCMD
  PROFILECMD = yourlayout.PROFILECMD
  ADMINCMD = yourlayout.ADMINCMD
