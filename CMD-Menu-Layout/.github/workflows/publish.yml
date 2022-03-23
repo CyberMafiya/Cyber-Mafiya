@@ -1,0 +1,32 @@
+name: Test & Release
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    - name: Checkout Commit
+      uses: actions/checkout@v2
+
+    - name: Parsing Package Info
+      id: packageInfo
+      run: |
+        echo "::set-output name=package-name::$(jq -r .name package.json)"
+        echo "::set-output name=package-version::$(jq -r .version package.json)"
+        echo "::set-output name=commit-msg::$(git log -1 --pretty=%B)"
+        
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v2.1.1
+
+    - name: Install Dependencies
+      run: yarn
+
+    - name: Run Tests
+      run: yarn run test
+
+    - name: Build
