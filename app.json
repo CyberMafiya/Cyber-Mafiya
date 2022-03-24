@@ -39,22 +39,12 @@
         "SONGD": {
             "description": "Customizable Song Download message",
             "required": false,
-            "value": "_*I'm Searching your song*_ ✨➾🔎
-
-🧐 *ඔයා කියපු සින්දුව හොයන ගමන්* 
-      *පොඩ්ඩක් ඉන්න* 😃😃
-
-꧁☆ᵾᵽłøȺđ කරනතෙක්  අපගේ ɎøᵾŦᵾƀɇ ȼħȺnnɇł එක sᵾƀsȼɍɨƀɇ කරන්න...☆꧂
-
-https://youtu.be/7ARNi7YwUsY"
+            "value": "_*I'm Searching your song*_ ✨➾🔎"
         },
         "SONGU": {
             "description": "Customizable Song upload message",
             "required": false,
-            "value": "*🎲➾✨Uploading Your Song*
-
-🎲➾✨ *ඔයා ඉල්හලපු සිංදුව හම්බවුනා*...
-      *අහලා හොදද බලන්න*"
+            "value": "_*Im Uploading your song*_ ✨➾🎲"
         },
         "LANGUAGE": {
             "description": "Enter your language. SI - Sinhala | EN - English | ES - Spanish(ag)",
