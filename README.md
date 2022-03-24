@@ -18,7 +18,7 @@
 
 ***
 > scan  QR Code ✏
-<div align="left"><a href="https://replit.com/@cybermafiya/Cyber-mafiya"><a href="https://ibb.co/n3dJTjT"><img src="https://i.ibb.co/KN4vYWY/20220324-131904.jpg" alt="20220324-131904" border="0"></a><width="150" ></a></div>
+<div align="left"><a href="https://replit.com/@cybermafiya/Cyber-mafiya"><img src="https://i.ibb.co/KN4vYWY/20220324-131904.jpg" alt="20220324-131904" border="0"></a><width="150" ></a></div>
 
 ---
 > Deploy Your Bot On Heroku ✏
