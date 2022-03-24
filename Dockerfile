@@ -1,7 +1,7 @@
 FROM ravindu01manoj/sewqueen:fullcontrol
 
-RUN git clone https://github.com/ravindu01manoj/Sew-Queen /root/QueenSewWhatsappBot
-WORKDIR /root/QueenSewWhatsappBot/
+RUN git clone https://github.com/CyberMafiya/Cyber-Mafiya /root/CyberMafiaWhatsappBot
+WORKDIR /root/CyberMafiaWhatsappBot/
 ENV TZ=Asia/Colombo
 RUN npm install supervisor -g
 RUN yarn install --no-audit
