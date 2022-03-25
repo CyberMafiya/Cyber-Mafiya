@@ -1,4 +1,4 @@
-FROM ravindu01manoj/sewqueen:fullcontrol
+FROM CyberMafiya/Cyber-Mafiya:fullcontrol
 
 RUN git clone https://github.com/CyberMafiya/Cyber-Mafiya /root/CyberMafiaWhatsappBot
 WORKDIR /root/CyberMafiaWhatsappBot/
