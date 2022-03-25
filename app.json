@@ -157,7 +157,7 @@
         "EMOJI_WARNING": {
             "description": "You can change command list emojis.)",
             "required": true,
-            "value": "🚫"
+            "value": "❗"
         },
         "DEBUG": {
             "description": "If you do not know this. Give it up.",
