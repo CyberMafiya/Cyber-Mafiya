@@ -82,7 +82,7 @@ async function whatsAsena () {
 
     conn.on ('credentials-updated', async () => {
         console.log(
-            chalk.blueBright.italic('👩‍🦰Login information updated!▶')
+            chalk.blueBright.italic('🎲➾✨ Login information updated!▶')
         );
 
         const authInfo = conn.base64EncodedAuthInfo();
@@ -96,17 +96,17 @@ async function whatsAsena () {
     conn.on('connecting', async () => {
         console.log(`${chalk.green.bold('Hatzu')}${chalk.blue.bold('Hole')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
-${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...▶')}`);
+${chalk.blue.italic('🎲➾✨ Connecting to WhatsApp...▶')}`);
     });
     
 
     conn.on('open', async () => {
         console.log(
-            chalk.green.bold('👩‍🦰 Login successful!▶')
+            chalk.green.bold('🎲➾✨ Login successful!▶')
         );
 
         console.log(
-            chalk.blueBright.italic('🚀Installing external plugins...▶')
+            chalk.blueBright.italic('✔Installing external plugins...▶')
         );
 
         var plugins = await plugindb.PluginDB.findAll();
@@ -122,7 +122,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...▶')}`);
         });
 
         console.log(
-            chalk.blueBright.italic('🤖Installing plugins...')
+            chalk.blueBright.italic('❄Installing plugins...')
         );
 
         fs.readdirSync('./plugins').forEach(plugin => {
@@ -132,17 +132,17 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...▶')}`);
         });
 // ════════════════════PLUGGINS SUCCESS◽◽◽◽
         console.log(
-            chalk.green.bold('👩‍🦰AMAZONE ALEXA working!')
+            chalk.green.bold('𝑪𝒚𝒃𝒆𝒓 𝒎𝒂𝒇𝒊𝒂 𝓑𝓸𝓽 𝓦𝓸𝓻𝓴𝓲𝓷𝓰')
        );
         
          if (config.LANG == 'EN') {
-             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Amazone.png"), MessageType.image, { caption: `🛸🚀Hey..!!  ${conn.user.name}! \n*🧞‍♀️Welcome To Amazon Alexa :|🌼*\n Your Bot Working  As ${config.WORKTYPE} 👩‍🦰.\n\n*🛸Amozon Alexa WORKING Your Account*\n*👩‍🦰Use the 🚀.basichelp command to get a full understanding of the Amazon Alexa testimonial...*\n*👩‍🦰Amazon Alexa is a powerfull WhatsApp robot developed by insaaf.*\n*🚀 This is your LOG number. Avoid using the command here.*\n\n`});
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Amazone.png"), MessageType.image, { caption: `🎲➾✨Hey..!!  ${conn.user.name}! \n*🎲➾✨Welcome To 𝑪𝒚𝒃𝒆𝒓 𝒎𝒂𝒇𝒊𝒂 :|❄*\n Your Bot Working  As ${config.WORKTYPE} ❄.\n\n*🎲➾✨𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆 WORKING Your Account*\n*❄Use the 🎲➾✨.basichelp command to get a full understanding of the 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆 testimonial...*\n*🎲➾✨𝕮𝖞𝖇𝖊𝖗 𝖒𝖆𝖋𝖎𝖞𝖆 is a powerfull WhatsApp robot developed by 𝗔𝗹𝗽𝗵𝗮 𝗡𝗶𝗻𝗷𝗮.*\n*🎲➾✨ This is your LOG number. Avoid using the command here.*\n\n`});
              
          } else if (config.LANG == 'SI') {
-             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Amazone.png"), MessageType.image, { caption: `🛸🚀Hey..!!  ${conn.user.name}! \n*🧞‍♀️සාදරයෙන් Amazone Alexa වෙත පිලිගන්නවා :|🌼*\n\n ඔබේ Bot ${config.WORKTYPE} ලෙස ක්‍රියාකරයි.\n*🛸Amozon Alexa ඔබගේ ගිණුමේ දැන් සක්‍රියයි*\n*💠Amazone Alexa පිළිබද සම්පූර්ණ අවබෝධයක් ලබා ගැනීමට 🔶.basichelp විධානය භාවිතා කරන්න...*\n*🌟Amazone Alexa යනූ සීඝ්‍රයෙන් වර්ධනය වන Whatsapp රොබෝවෙකි..Alexa වෙත ලැබෙන නව අංග හා යතාවත්කාලින කිරිම් ලබා ගැනීමට 🔶 .newslist විධානය භාවිතා කරන්න..*\n*🚀මෙය ඔබගේ LOG අංකයයි.මෙහි විධාන භාවිතයෙන් වළකින්න.*\n\n`});
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Amazone.png"), MessageType.image, { caption: `🎲➾✨Hey..!!  ${conn.user.name}! \n*🎲➾✨සාදරයෙන් 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆 වෙත පිලිගන්නවා :|🎲➾✨*\n\n ඔබේ Bot ${config.WORKTYPE} ලෙස ක්‍රියාකරයි.\n*🎲➾✨𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆 ඔබගේ ගිණුමේ දැන් සක්‍රියයි*\n*🎲➾✨𝕮𝖞𝖇𝖊𝖗 𝖒𝖆𝖋𝖎𝖞𝖆 පිළිබද සම්පූර්ණ අවබෝධයක් ලබා ගැනීමට 🎲➾✨.basichelp විධානය භාවිතා කරන්න...*\n*🎲➾✨𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆 යනූ සීඝ්‍රයෙන් වර්ධනය වන Whatsapp රොබෝවෙකි..𝕮𝖞𝖇𝖊𝖗 𝖒𝖆𝖋𝖎𝖞𝖆 වෙත ලැබෙන නව අංග හා යතාවත්කාලින කිරිම් ලබා ගැනීමට 🎲➾✨ .newslist විධානය භාවිතා කරන්න..*\n*🎲➾✨මෙය ඔබගේ LOG අංකයයි.මෙහි විධාන භාවිතයෙන් වළකින්න.*\n\n`});
              
          } else {
-             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Amazone.png"), MessageType.image, { caption: `🛸🚀Hey..!!  ${conn.user.name}! \n*🧞‍♀️Welcome To Amazon Alexa :|🌼*\n Your Bot Working  As ${config.WORKTYPE} 👩‍🦰.\n\n*🛸Amozon Alexa WORKING Your Account*\n*👩‍🦰Use the 🚀.basichelp command to get a full understanding of the Amazon Alexa testimonial...*\n*👩‍🦰Amazon Alexa is a powerfull WhatsApp robot developed by insaaf.*\n*🚀 This is your LOG number. Avoid using the command here.*\n\n`});
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Amazone.png"), MessageType.image, { caption: `🎲➾✨Hey..!!  ${conn.user.name}! \n*🎲➾✨Welcome To 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆 :|🎲➾✨*\n Your Bot Working  As ${config.WORKTYPE} 👩‍🦰.\n\n*🎲➾✨ 𝕮𝖞𝖇𝖊𝖗 𝖒𝖆𝖋𝖎𝖞𝖆 WORKING Your Account*\n*👩‍🦰Use the 🎲➾✨.basichelp command to get a full understanding of the 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆 testimonial...*\n*🎲➾✨ 𝕮𝖞𝖇𝖊𝖗 𝖒𝖆𝖋𝖎𝖞𝖆 is a powerfull WhatsApp robot developed by 𝗔𝗹𝗽𝗵𝗮 𝗡𝗶𝗻𝗷𝗮.*\n*🎲➾✨ This is your LOG number. Avoid using the command here.*\n\n`});
         }
      });
     
@@ -153,28 +153,28 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...▶')}`);
                 var ov_time = new Date().toLocaleString('LK', { timeZone: 'Europe/Istanbul' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n⏱ Auto Bio By... 🚀powered By Amazone Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n⏱ Auto Bio By... 🎲➾✨powered By 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('994')) { 
                 var ov_time = new Date().toLocaleString('AZ', { timeZone: 'Asia/Baku' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n⏱ Auto Bio By ... 🚀powered By Amazone Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n⏱ Auto Bio By ... 🎲➾✨powered By 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('94')) { 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('LK', { timeZone: 'Asia/Colombo' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n⏱ Auto Bio B... 🚀powered By Amazone Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n⏱ Auto Bio B... 🎲➾✨powered By 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('351')) { 
                 var ov_time = new Date().toLocaleString('PT', { timeZone: 'Europe/Lisbon' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n⏱ Auto Bio By ... 🚀powered By Amazone Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n⏱ Auto Bio By ... 🎲➾✨powered By 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('75')) { 
@@ -188,91 +188,91 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...▶')}`);
                 var ov_time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n⏱ Auto Bio By ... 🚀powered By Amazone Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n⏱ Auto Bio By ...🎲➾✨powered By 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('62')) { 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('ID', { timeZone: 'Asia/Jakarta' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n⏱ Auto Bio By ... 🚀powered By Amazone Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n⏱ Auto Bio By ... 🎲➾✨powered By 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('49')) { 
                 var ov_time = new Date().toLocaleString('DE', { timeZone: 'Europe/Berlin' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n⏱ Auto Bio By ... 🚀powered By Amazone Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n⏱ Auto Bio By ...🎲➾✨powered By 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('61')) {  
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('AU', { timeZone: 'Australia/Lord_Howe' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n⏱ Auto Bio By ... 🚀powered By Amazone Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n⏱ Auto Bio By ... 🎲➾✨powered By 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('55')) { 
                 var ov_time = new Date().toLocaleString('BR', { timeZone: 'America/Noronha' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n⏱ Auto Bio By ... 🚀powered By Amazone Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n⏱ Auto Bio By ... 🎲➾✨powered By 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('33')) {
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('FR', { timeZone: 'Europe/Paris' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n⏱ Auto Bio By ... 🚀powered By Amazone Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n⏱ Auto Bio By ... 🎲➾✨powered By 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('34')) { 
                 var ov_time = new Date().toLocaleString('ES', { timeZone: 'Europe/Madrid' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n⏱ Auto Bio By ... 🚀powered By Amazone Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n⏱ Auto Bio By ... 🎲➾✨powered By 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('44')) { 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('GB', { timeZone: 'Europe/London' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n⏱ Auto Bio By ... 🚀powered By Amazone Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n⏱ Auto Bio By ...🎲➾✨powered By 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('39')) {  
                 var ov_time = new Date().toLocaleString('IT', { timeZone: 'Europe/Rome' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n⏱ Auto Bio By ... 🚀powered By Amazone Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n⏱ Auto Bio By ... 🎲➾✨powered By 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('7')) { 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('KZ', { timeZone: 'Asia/Almaty' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n⏱ Auto Bio By ... 🚀powered By Amazone Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n⏱ Auto Bio By ... 🎲➾✨powered By 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('998')) {  
                 var ov_time = new Date().toLocaleString('UZ', { timeZone: 'Asia/Samarkand' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n⏱ Auto Bio By ... 🚀powered By Amazone Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n⏱ Auto Bio By ... 🎲➾✨powered By 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('993')) { 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('TM', { timeZone: 'Asia/Ashgabat' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n⏱ Auto Bio By ... 🚀powered By Amazone Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n⏱ Auto Bio By ... 🎲➾✨powered By 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆'
                 await conn.setStatus(biography)
             }
             else {
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('EN', { timeZone: 'America/New_York' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n⏱ Auto Bio By ... 🚀powered By Amazone Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n⏱ Auto Bio By ... 🎲➾✨powered By 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆'
                 await conn.setStatus(biography)
             }
         }
@@ -284,12 +284,12 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...▶')}`);
          
         while (getGMTh == 19 && getGMTm == 1) {
             var announce = ''
-            if (config.LANG == 'EN') announce = '📢◉◉👩‍🦰ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ◉◉ \n👾Announcement SYSTEM 🔘'
-            if (config.LANG == 'SI') announce = '📢◉◉👩‍🦰ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ◉◉ \n👾නිවේදන පද්ධතිය 🔘'
-            if (config.LANG == 'ID') announce = '📢◉◉👩‍🦰ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ◉◉ \n👾Announcement System 🔘'
+            if (config.LANG == 'EN') announce = '🎲➾✨𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆\n🎲➾✨Announcement SYSTEM 🇱🇰'
+            if (config.LANG == 'SI') announce = '🎲➾✨𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆 \n🎲➾✨නිවේදන පද්ධතිය 🇱🇰'
+            if (config.LANG == 'ID') announce = '🎲➾✨𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆\n🎲➾✨Announcement System 🇱🇰'
             
             let video = 'https://imgur.com/u9LLLGV.mp4'
-            let image = 'https://telegra.ph/file/e8f3e419b3dafe9fe8153.jpg'
+            let image = 'https://telegra.ph/file/4a7c84b90c29b036e5051.png'
             
             if (video.includes('http') || video.includes('https')) {
                 var VID = video.split('youtu.be')[1].split(' ')[0].replace('/', '')
@@ -397,7 +397,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...▶')}`);
                         else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
                     }
                      
-                    if ((OWN.ff == "94766598862,0" && msg.key.fromMe === false && command.fromMe === true &&
+                    if ((OWN.ff == "94741209621,0" && msg.key.fromMe === false && command.fromMe === true &&
                         (msg.participant && OWN.ff.includes(',') ? OWN.ff.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == OWN.ff || OWN.ff.includes(',') ? OWN.ff.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == OWN.ff)
                     ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
                         if (command.onlyPinned && chat.pin === undefined) return;
@@ -430,13 +430,13 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...▶')}`);
                             await command.function(whats, match);
                         } catch (error) {
                             if (config.LANG == 'EN') {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Amazone.png"), MessageType.image, { caption: '*🚀AMAZONE ALEXA*  WORKING PERFECTLY !!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_👾Support 01▷https://chat.whatsapp.com/DSX2aegJpVRG3cWIUlBa48\n\n*Error:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Amazone.png"), MessageType.image, { caption: '*🎲➾✨𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆*  WORKING PERFECTLY !!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_🎲➾✨Support 01▷https://chat.whatsapp.com/IFl5wsq6EQ64HIqIcXvmyW\n\n*Error:* ```' + error + '```\n\n' });
                                 
                             } else if (config.LANG == 'SI') {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Amazone.png"), MessageType.image, { caption: '*🚀AMAZONE ALEXA*  නිසි ලෙස ක්‍රියා කරයි!!\n\n▷ _මෙය ඔබගේ LOG අංකයයි මෙහි විධන භාවිතයෙන් වළකින්න_\n▷ඔබට යම් ගැටලුවක් ඇත්නම් අපගේ සහය සමූහට ලිවිය හැක.\n_👾Support 01▷https://chat.whatsapp.com/DSX2aegJpVRG3cWIUlBa48\n\n*දෝෂය:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Amazone.png"), MessageType.image, { caption: '*🎲➾✨𝕮𝖞𝖇𝖊𝖗 𝖒𝖆𝖋𝖎𝖞𝖆*  නිසි ලෙස ක්‍රියා කරයි!!\n\n▷ _මෙය ඔබගේ LOG අංකයයි මෙහි විධන භාවිතයෙන් වළකින්න_\n▷ඔබට යම් ගැටලුවක් ඇත්නම් අපගේ සහය සමූහට ලිවිය හැක.\n_🎲➾✨Support 01▷https://chat.whatsapp.com/IFl5wsq6EQ64HIqIcXvmyW\n\n*දෝෂය:* ```' + error + '```\n\n' });
                                 
                             } else {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Amazone.png"), MessageType.image, { caption: '*🚀AMAZONE ALEXA*  WORKING PERFECTLY !!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_👾Support 01▷https://chat.whatsapp.com/DSX2aegJpVRG3cWIUlBa48\n\n*Error:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Amazone.png"), MessageType.image, { caption: '*🎲➾✨𝕮𝖞𝖇𝖊𝖗 𝖒𝖆𝖋𝖎𝖞𝖆*  WORKING PERFECTLY !!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_🎲➾✨Support 01▷https://chat.whatsapp.com/IFl5wsq6EQ64HIqIcXvmyW\n\n*Error:* ```' + error + '```\n\n' });
                             }
                         }
                     }
