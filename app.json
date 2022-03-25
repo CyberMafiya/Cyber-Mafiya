@@ -1,14 +1,14 @@
 {
-    "name": "Amazone Alexa V8",
-    "description": "Alexa is a chat bot for WhatsApp. Makes it easy and Working perfectly",
-    "logo": "https://telegra.ph/file/2046371f4b8e65dd4d52e.jpg",
-    "keywords": ["whatsapp", "userbot", "bot", "api", "ai", "amazone alexa"],
-    "repository": "https://chat.whatsapp.com/B5i5mfIerpC6K8jf6GkM7I",
-    "website":   "https://chat.whatsapp.com/B5i5mfIerpC6K8jf6GkM7I",
-    "success_url": "https://chat.whatsapp.com/B5i5mfIerpC6K8jf6GkM7I",
+    "name": "Cyber Mafiya",
+    "description": "Cyber Mafiya is a chat bot for WhatsApp. Makes it easy and Working perfectly",
+    "logo": "https://telegra.ph/file/4a7c84b90c29b036e5051.png",
+    "keywords": ["whatsapp", "userbot", "bot", "api", "ai", "Cyber Mafiya"],
+    "repository": "https://chat.whatsapp.com/IFl5wsq6EQ64HIqIcXvmyW",
+    "website":   "https://chat.whatsapp.com/IFl5wsq6EQ64HIqIcXvmyW",
+    "success_url": "https://chat.whatsapp.com/IFl5wsq6EQ64HIqIcXvmyW",
     "stack": "container",
     "env": {
-        "NEUTRO_SESSION": {
+        "𝕮𝖞𝖇𝖊𝖗 𝖒𝖆𝖋𝖎𝖞𝖆_SESSION": {
             "description": "Paste your QR session.",
             "required": true
         },
@@ -19,7 +19,7 @@
         "BIO": {
             "description": "Change Your live Bio | ඔබේ About එකට අවශ්‍ය දෙයක් මෙහි ලියන්න",
             "required": false,
-            "value": "ɪ ᴀᵐ ⁿᵒᵗ ᵖᵉʳᶠᵉᶜᵗ ʙᵘᵗ ɪ  ᴀᵐ ʟⁱᵐⁱᵗᵉᵈ ᴇᵈⁱᵗⁱᵒⁿ👀🔥"
+            "value": "cͨrͬeͤaͣᴛⷮ вⷡy cͨyвⷡeͤrͬ mͫaͣfiͥaͣ ᴛⷮeͤaͣmͫ"
         },
         "AUTO_STICKER": {
             "description": "If you likes Auto Sticker you can write 'true'. Otherwise false",
@@ -29,22 +29,22 @@
         "BOT_NAME": {
             "description": "give a name you disire to give your bot (for auto reply white to identify)",
             "required": false,
-            "value": "👩‍🦰©Amazone Alexa"
+            "value": "𝕮𝖞𝖇𝖊𝖗 𝖒𝖆𝖋𝖎𝖞𝖆"
         },
-        "FULL_ALEXA": {
-            "description": "Activate alexa chat bot",
+        "FULL_𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆": {
+            "description": "Activate 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆 chat bot",
             "required": false,
             "value": "false"
         },
         "SONGD": {
             "description": "Customizable Song Download message",
             "required": false,
-            "value": "*◦•●◉Downloading Your Song◉●•◦*"
+            "value": "_*I'm Searching your song*_ ✨➾🔎"
         },
         "SONGU": {
             "description": "Customizable Song upload message",
             "required": false,
-            "value": "*◦•●◉✿Uploading Your Song✿◉●•◦*"
+            "value": "_*Im Uploading your song*_ ✨➾🎲"
         },
         "LANGUAGE": {
             "description": "Enter your language. SI - Sinhala | EN - English | ES - Spanish(ag)",
@@ -87,7 +87,7 @@
         "CAPTIONS": {
             "description": "Set your caption under medias.",
             "required": true,
-            "value": "Made By 👩‍🦰Amazone Alexa"
+            "value": "Made By ꧁᳆⃞🇱🇰Alpha➵͜͡✪Ninja⃞⃝🇱🇰꧂"
         },
         "MUTE_MESSAGE": {
             "description": "Message received when mute a group. If you do not want to change this message, type default.",
@@ -112,7 +112,7 @@
         "ALIVE_LOGO": {
             "description": "Alive message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
             "required": true,
-            "value": "https://telegra.ph/file/2046371f4b8e65dd4d52e.jpg"
+            "value": "https://telegra.ph/file/4a7c84b90c29b036e5051.png"
         },
         "WELCOME_GIF": {
             "description": "Welcome message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
@@ -142,22 +142,22 @@
         "WORK_TYPE": {
             "description": "The way the bot works. If you use public, everyone can use the bot. If you use private, only you can use your bot.",
             "required": true,
-            "value": "private"
+            "value": "public"
         },
         "EMOJI_COMMAND": {
             "description": "You can change Command list emojis.)",
             "required": true,
-            "value": "👸"
+            "value": "🎲➾✨"
         },
         "EMOJI_DESCRIPTION": {
             "description": "You can change command list emojis.)",
             "required": true,
-            "value": "💰"
+            "value": "❄"
         },
         "EMOJI_WARNING": {
             "description": "You can change command list emojis.)",
             "required": true,
-            "value": "🚫"
+            "value": "‼"
         },
         "DEBUG": {
             "description": "If you do not know this. Give it up.",
@@ -167,7 +167,7 @@
         "PANEL_COMMAND": {
             "description": "Customizeable commands list request command. Keep alexa if you don't want to change.",
             "required": true,
-            "value": "alexa"
+            "value": "panel"
         },
         "REMOVE_BG_API_KEY": {
             "description": "Here you go to the website remove.bg and sign up and get an API key. Leave the API key in this space.",
@@ -236,7 +236,7 @@
         "MENU_INFO": {
             "description": "write Some Words about yor Bot You can Edite this",
             "required": false,
-            "value": "🧜‍♀ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ ɪꜱ ᴀ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ. ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ©️ᴛᴇᴇɴᴜ Use ᴇᴀꜱʏ ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ᴘᴇʀᴇᴄᴛʟʏ..🎨ꜱᴏ ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ ɪꜱ ʙᴇꜱᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ🧞‍♀️!!"
+            "value": "🇱🇰 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆 ɪꜱ ᴀ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ. ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ©️ᴛᴇᴇɴᴜ Use ᴇᴀꜱʏ ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ᴘᴇʀᴇᴄᴛʟʏ..❄ꜱᴏ 𝕮𝖞𝖇𝖊𝖗 𝕸𝖆𝖋𝖎𝖆 ɪꜱ ʙᴇꜱᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ✨!!"
         }
     },
     "addons": [{
