@@ -1,9 +1,15 @@
-FROM CyberMafiya/Cyber-Mafiya:fullcontrol
+FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/CyberMafiya/Cyber-Mafiya /root/CyberMafiaWhatsappBot
-WORKDIR /root/CyberMafiaWhatsappBot/
-ENV TZ=Asia/Colombo
+RUN git clone https://github.com/CyberMafiya/Cyber-Mafiya /root/WhatsAsena
+WORKDIR /root/WhatsAsena/
+ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
-RUN yarn install --no-audit
+RUN apk --no-cache --virtual build-dependencies add \
+    python \
+    make \
+    g++ \
+    && npm install \
+    && apk del build-dependencies
+RUN npm install
 
 CMD ["node", "bot.js"]
